@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import HelloReact from './components/HelloReact'
-import HelloDev from './components/HelloDev'
+import Calc from './components/Calc';
 
 function App() {
   return (
     <div className="App">
-      <HelloReact />
-      <HelloDev dev_name="Gustavo"/>
+      <Calc />
     </div>
   );
 }

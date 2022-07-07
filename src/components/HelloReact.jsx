@@ -1,8 +1,8 @@
 
-
-function HelloReact() {
+export default function HelloReact (){
   return(
-    <p>Salve salve Dio</p>
+    <div>
+      <p>Salve galera</p>
+    </div>
   )
 }
-export default HelloReact;
