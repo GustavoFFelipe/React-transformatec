@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import Calc from './components/Calc';
-
+import PersonClass from './components/PersonClass';
 function App() {
   return (
     <div className="App">
-      <Calc />
+     <PersonClass name='Gustavo' staus={true} />
     </div>
   );
 }
